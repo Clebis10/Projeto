@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(236, 232, 232) !important;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+#conteudo{
+    min-width: 600px;
+    height: 300px;
+    background: url(../image/Unimed\ vai\ construir\ hospital\ no\ bairro\ Humaitá\ _\ GZH.jfif) no-repeat center ;
+    opacity: 0.8;
+}
+
