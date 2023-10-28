@@ -9,21 +9,24 @@
     </head>
 
     <body>
-        <script src="../Js/main.js"></script>
         <h1>Página de Autenticação</h1>
         <div id="conteudo">
-            <form class="formulario" action="">
+            <form id="formulario">
                 <label class="" for="login">Login</label>
                 <input id="login" class="login" placeholder="Digite seu Login" type="text" name="login" required>
 
                 <label class="" for="senha">Senha</label>
                 <input id="senha" class="senha" placeholder="Digite sua senha" type="password" name="senha" required>
                 
-                <input id="boton" type="submit" value="Enviar">
+                <button id="boton" type="submit" value="Enviar">Entrar</button>
 
 
 
             </form>
         </div>
+
+        <div id="message"></div>
+        <script src="../Js/login.js"></script>
+        
     </body>
 </html>

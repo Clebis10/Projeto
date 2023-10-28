@@ -59,15 +59,30 @@ label {
 
 
 
-#boton{
+button{
     margin-top: 50px !important;
-    background: rgb(246, 246, 246);
-    color: rgb(0, 0, 0);
+    background: rgba(3, 3, 3, 0.345);
+    color: rgb(0, 0, 0) ;
+    width: 80%;
     font-weight: bold;
-    font-size: 20px;
+    display: block;
+    font-size: 20px !important;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 10px;
+    border-radius: 10px !important;
 }
 
-#boton:hover{
+button:hover{
     background: rgb(20, 18, 18);
     color: red;
+}
+
+#message{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
 }
